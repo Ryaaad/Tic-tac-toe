@@ -42,19 +42,19 @@ return (
     </div>
      </div>
      }
-        { win &&    <div className="h-[100vh] fixed top-0 right-0 opacity-100 
+        { win &&  <div className="h-[100vh] fixed top-0 right-0 opacity-100 
       w-full bg-[#00000099] z-20 "  >
          <div  className=' absolute top-[50%] shadow-2xl left-[50%] translate-x-[-50%]
           translate-y-[-50%]  w-[500px] h-[210px] grid items-center p-3 font-["Roboto"]
            justify-center text-lg text-center rounded-[25px] z-30  bg-white ' >
     <div  >
-      <img src={stupid} className="h-[35px] w-[35px] top-[7%] left-[60%] absolute" />
+      {/* <img src={stupid} className="h-[35px] w-[35px] top-[10%] left-[60%] absolute" /> */}
     <h1 className='tracking-[1px] font-bold  text-3xl' >Win</h1> 
-        <p  className=' my-2 text-[#9e9ea7] max-w-[350px] ' > hien </p> 
+        <p  className='my-2 text-[#9e9ea7] max-w-[350px] ' > hien </p> 
     </div>
     <div className="flex gap-10 justify-center items-center">
-        <div className='bg-black p-2 cursor-pointer box-border px-5 text-white 
-        rounded-lg ' onClick={()=>dispatch(Restart())} > Restart</div>
+        <div className='bg-[#000000eb] p-2 cursor-pointer box-border px-5 text-white 
+        rounded-lg hover:bg-black' onClick={()=>dispatch(Restart())} > Restart</div>
         <div className='text-[#9e9ea7] cursor-pointer hover:text-[#898991] '
          onClick={()=>dispatch(Restart())}
         >Fuck off</div>
