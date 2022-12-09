@@ -16,6 +16,6 @@
     "noEmit": true,
     "jsx": "react-jsx"
   },
-  "include": ["src"],
+  "include": ["src", "../XOjs/Xo/src/X&O.js"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

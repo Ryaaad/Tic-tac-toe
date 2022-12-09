@@ -17,10 +17,12 @@ const  {matric,p1,p2,Turn,win,Draw}= useSelector((state:any)=>state.XO)
  },[Turn])
  
  let index:number[]=[0,1,2,3,4,5,6,7,8];
+ console.log(p1);
+ 
 return (
     <div style={{background:`${Night ? 'black' : ''}`}}  className="h-[calc(100vh)]
      grid justify-center items-center " >
-     <div className="flex h-[max-content] justify-between text-xl ">
+     <div className={ `${Night ? 'text-white' : 'text-black'} flex h-[max-content] justify-between font-demibold text-2xl` }>
       <h1> O : {p1}  </h1>
       <h1> X : {p2}  </h1> 
      </div>

@@ -17,9 +17,9 @@ function App() {
 const {Night}=useSelector((state:any)=>state.man)
   return (
     <div className={`bg-white text-3xl h-[100vh] ${Night && 'bg-black'}`} >
-      {Night &&   <BsFillSunFill  className="top-[5%] hover:scale-110 hover:rotate-2 duration-200 text-white fixed cursor-pointer right-[20%] "
+      {Night &&   <BsFillSunFill  className="top-[5%] hover:scale-110 hover:rotate-2 duration-200 text-white fixed cursor-pointer right-[5%] lg:right-[20%]  "
       onClick={()=> dispatch(Mode())} ></BsFillSunFill>}
-      {!Night &&   <BsMoonFill className="top-[5%] fixed cursor-pointer right-[20%] hover:scale-110 hover:rotate-2 duration-200 "
+      {!Night &&   <BsMoonFill className="top-[5%] fixed cursor-pointer right-[5%] lg:right-[20%] hover:scale-110 hover:rotate-2 duration-200 "
          onClick={()=>dispatch(Mode())} ></BsMoonFill>}
     <XO></XO>
     </div>
