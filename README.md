@@ -3,7 +3,7 @@ Tic-tac-toe (XO) a game in which two players take turns in drawing either an ` O
 
 # Demo 
 
-
+## light mode : 
 ![X-O](https://user-images.githubusercontent.com/87044522/206597979-e814ae4a-3eb9-4c82-9bc5-ead2449777ed.png)
 
 ## Night mode : 
